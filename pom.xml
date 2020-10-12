@@ -21,7 +21,7 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>offlineapp</module>
+    <module>twitterclient</module>
   </modules>
 
   <build>
