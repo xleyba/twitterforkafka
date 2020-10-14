@@ -1,4 +1,4 @@
-package net.leyba.twitterclient;
+package net.leyba.elasticsearchconsumer;
 
 import com.google.common.collect.Lists;
 import com.twitter.hbc.ClientBuilder;

@@ -4,7 +4,7 @@
 		 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.javier</groupId>
-    <artifactId>twitterclient</artifactId>
+    <artifactId>elasticsearchconsumer</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
     <name>java-project</name>
@@ -27,10 +27,11 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.11.3</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-high-level-client -->
         <dependency>
-            <groupId>com.twitter</groupId>
-            <artifactId>hbc-core</artifactId> <!-- or hbc-twitter4j -->
-            <version>2.2.0</version> <!-- or whatever the latest version is -->
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>7.9.2</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
